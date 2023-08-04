@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhtap-demo-component-rpcv
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/ysubrama_org/rhtap-demo-dev-reml-tenant/mvp-test-app/rhtap-demo-component-rpcv@sha256:c43ac15b06b04659e1ecf021fed09443e0d0ec0316b2cf2c3d6bc77953b05342
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
